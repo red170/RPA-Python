@@ -1,6 +1,9 @@
-largo =  float(input("ingresa largo"))
-ancho = float(input("ingresa ancho"))
+#Hola Mundo
+print('Hola Ernesto Portillo')
 
-area = largo * ancho
+# Con una Almoohadilla se coloca un Comentario Simple
 
-print (f"el area es {area}")
+"""
+Este es un comentario
+de Varias Lineas
+"""
