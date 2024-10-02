@@ -18,6 +18,8 @@ es_falso = False
 print(es_verdadero)  # Salida: True
 print(es_falso)      # Salida: False
 
+"-----------------------------------------------------------------------------------"
+
 #Verificar el Tipo de Dato
 print(type(numero_entero))
 print(type(numero_flotante))
