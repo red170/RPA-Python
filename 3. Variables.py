@@ -25,7 +25,7 @@ del apellido
 # print(nombreCompleto)
 # print(saludo)
 
-#--------- Operadores de Pertenencia & Identidad
 
-print( "ola" in "bienvenida" )
-print( "ola" not in "bienvenida" )
+
+
+
