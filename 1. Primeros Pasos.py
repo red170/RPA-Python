@@ -13,6 +13,7 @@
 - Lenguaje Interpretado (No necesita Compilador)
 - Se Importan solamente los Modulos Necesarios
 - Multiparadigma (Se puede llevar a diferentes Plataformas)
+- Case Sensitive (Diferencia de Mayusculas a Minusculas)
 
 """
 
@@ -35,5 +36,5 @@
 - Tareas de Bajo Nivel
 
 """
-
+#Hola Mundo
 print('hola mundo, que pedo neto')
