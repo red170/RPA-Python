@@ -20,6 +20,23 @@ print(f'Suma:{Suma} - Resta:{Resta} - Multiplicacion:{Multiplicacion} - Division
 >= Es Mayor o Igual Que
 
 """
+#--------- Operadores Logicos
+
+#!AND da False si hay una condicion que sea False
+r1 = True & True #True
+r2 = False & True #False
+r3 = True & False #False
+r4 = False & False #False
+
+#!OR da True si hay una condicion que sea True
+r5 = True | True #True
+r6 = False | True #True
+r7 = True | False #True
+r8 = False | False #False
+
+#!NOT intercambia el Valor Logico ingresado
+r9 = not True #False
+r10 = not False #True
 
 #--------- Operadores de Pertenencia (Si el primer elemento/variable esta contenido o no dentro del segundo elemento/variable)
 
