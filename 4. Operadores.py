@@ -9,6 +9,17 @@ Modulo = 1%1 #El restante de una Division no Exacta
 
 print(f'Suma:{Suma} - Resta:{Resta} - Multiplicacion:{Multiplicacion} - Division:{Division} - Potenciacion:{Potenciacion} - Division Baja:{Division_Baja} - Modulo:{Modulo}')
 
+#--------- Operadores de Comparacion
+
+"""
+== Es Igual Que
+!= Es Distinto Que
+< Es Mejor Que
+<= Es Menor o Igual Que
+> Es Mayor Que
+>= Es Mayor o Igual Que
+
+"""
 
 #--------- Operadores de Pertenencia (Si el primer elemento/variable esta contenido o no dentro del segundo elemento/variable)
 
