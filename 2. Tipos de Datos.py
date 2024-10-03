@@ -54,3 +54,8 @@ print(diccionario)
 diccionario['nombre'] = 'Oscar'
 print(diccionario)
 
+#VERIFICAR TIPO DE DATOS
+print(type(1))
+print(type('Ernesto'))
+print(type(False))
+
