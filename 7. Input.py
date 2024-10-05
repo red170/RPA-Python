@@ -1,4 +1,4 @@
-#///Input de Nombres
+# --- Input de Nombres
 
 #Pedirle un Dato al Usuario
 nombre = input('Cual es tu nombre? ')
@@ -6,7 +6,9 @@ nombre = input('Cual es tu nombre? ')
 #Mostrar el Nombre
 print(f'Hola {nombre}')
 
-#///Input de Numeros
+
+
+# --- Input de Numeros
 numero = input('ingresa un Numero ')
 
 #Convertir el Dato a Numero y Operarlo

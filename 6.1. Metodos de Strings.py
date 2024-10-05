@@ -1,7 +1,5 @@
-#Metodos de Cadenas
+# --- Metodos de Cadenas
 
-
-#Variable a Manejar
 cadena1 = 'Hola soy ernesto'
 
 

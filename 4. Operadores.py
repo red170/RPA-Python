@@ -1,4 +1,4 @@
-#--------- Operadores Aritmeticos
+# --- Operadores Aritmeticos
 Suma = 1+1
 Resta = 1-1
 Multiplicacion = 1*1
@@ -9,7 +9,7 @@ Modulo = 1%1 #El restante de una Division no Exacta
 
 print(f'Suma:{Suma} - Resta:{Resta} - Multiplicacion:{Multiplicacion} - Division:{Division} - Potenciacion:{Potenciacion} - Division Baja:{Division_Baja} - Modulo:{Modulo}')
 
-#--------- Operadores de Comparacion
+# --- Operadores de Comparacion
 
 """
 == Es Igual Que
@@ -20,7 +20,7 @@ print(f'Suma:{Suma} - Resta:{Resta} - Multiplicacion:{Multiplicacion} - Division
 >= Es Mayor o Igual Que
 
 """
-#--------- Operadores Logicos
+# --- Operadores Logicos
 
 #!AND da False si hay una condicion que sea False
 r1 = True & True #True
@@ -38,12 +38,12 @@ r8 = False | False #False
 r9 = not True #False
 r10 = not False #True
 
-#--------- Operadores de Pertenencia (Si el primer elemento/variable esta contenido o no dentro del segundo elemento/variable)
+# --- Operadores de Pertenencia (Si el primer elemento/variable esta contenido o no dentro del segundo elemento/variable)
 
 print( "ola" in "bienvenida" ) #Devuelve true/false si se cumple la condicion
 print( "ola" not in "bienvenida" ) #Devuelve true/false si se cumple la condicion
 
-#--------- Operadores de Identidad (Si el primer elemento/variable es igual o no al segundo elemento/variable)
+# --- Operadores de Identidad (Si el primer elemento/variable es igual o no al segundo elemento/variable)
 
 print(10 is 10) #Devuelve true/false si se cumple la condicion
 print(10 is not 10) #Devuelve true/false si se cumple la condicion

@@ -1,11 +1,11 @@
-#Condicional Simple
+# --- Condicional Simple
 edad = 4
 if edad == 18:
     print('sos mayor de edad')
 else:
     print('no sos mayor de edad')
 
-#Condicional Variado
+# --- Condicional Variado
 numero = 0
 if numero > 0:
     print('es un numero positivo')
@@ -14,7 +14,7 @@ elif numero == 0:
 else:
     print('es numero negativo')
 
-#Condicional Anidado
+# --- Condicional Anidado
 salario = 365
 departamento = 'san miguel'
 

@@ -1,5 +1,5 @@
 """
-//HIstoria
+//Historia
 - Creado por Guido van Rossum y haciendo su primer lanzamiento en 1991 creo un lenguaje de progrmacion facil entender y escribir
 
 """
@@ -36,5 +36,6 @@
 - Tareas de Bajo Nivel
 
 """
+
 #Hola Mundo
 print('hola mundo, que pedo neto')
