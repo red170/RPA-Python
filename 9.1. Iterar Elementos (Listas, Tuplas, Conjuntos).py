@@ -3,7 +3,7 @@
 # Elementos sobre los que se pueden iterar: Listas, Tuplas, Diccionario, Cadenas de Texto
 
 # --- Bucle FOR
-# /// Listas y Tuplas
+# /// Listas, Tuplas y Conjuntos
 
 animales = ['perro','gato','tortuga','cocodrilo']
 numeros = [23,45,67,89]
@@ -36,3 +36,21 @@ for numero in numeros:
     print(numero)
 else:
     print('termino la lista')
+
+#Saltarse un Elemento e Imprimir todo lo demas
+for animal in animales:
+    if animal == 'gato':
+        continue
+    print(animal)
+else:
+    print('----terminado----')
+
+#Evitar que un bucle se siga ejecutando cuando se cumpla cierta funcion (break impide que se ejecute un else)
+for animal in animales:
+    if animal == 'gato':
+        break
+    print(animal)
+
+#Aplicar For para operar una lista de numeros en una sola linea de codigo
+numeros_duplicados = [x*2 for x in numeros]
+print(numeros_duplicados)
