@@ -1,0 +1,23 @@
+Index: .vscode/launch.json
+===================================================================
+diff --git a/.vscode/launch.json b/.vscode/launch.json
+deleted file mode 100644
+--- a/.vscode/launch.json	(revision 3c469f04d5acb67f914fd69bafcfa3ccf3944a83)
++++ /dev/null	(revision 3c469f04d5acb67f914fd69bafcfa3ccf3944a83)
+@@ -1,15 +0,0 @@
+-{
+-    // Use IntelliSense para saber los atributos posibles.
+-    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+-    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+-    "version": "0.2.0",
+-    "configurations": [
+-        {
+-            "name": "Depurador de Python: Archivo actual",
+-            "type": "debugpy",
+-            "request": "launch",
+-            "program": "${file}",
+-            "console": "integratedTerminal"
+-        }
+-    ]
+-}
+\ No newline at end of file
