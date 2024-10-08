@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea83a3fe-1d67-45e6-acb6-1b170bb28acb" name="Changes" comment="Actualizacion de Archivos">
-      <change afterPath="$PROJECT_DIR$/9.2 Iterar Diccionario.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.3. Recorrer Cadenas de Texto.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.2. Ciclo Bucle.py" beforeDir="false" afterPath="$PROJECT_DIR$/9.1. Iterar Elementos (Listas, Tuplas, Conjuntos).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +58,7 @@
     "Python.9. Input.executor": "Debug",
     "Python.9.1. Iterar Elementos (Listas, Tuplas, Conjuntos).executor": "Debug",
     "Python.9.2 Iterar Diccionario.executor": "Run",
+    "Python.9.3. Recorrer Cadenas de Texto.executor": "Debug",
     "Python.Metodos.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -126,29 +124,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8. Desempaquetado" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="RPA-Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8. Desempaquetado.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="9.1. Iterar Elementos (Listas, Tuplas, Conjuntos)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="RPA-Python" />
       <option name="ENV_FILES" value="" />
@@ -172,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9.2 Iterar Diccionario" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="9.2. Iterar Diccionario" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="RPA-Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,7 +161,30 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9.2 Iterar Diccionario.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9.2. Iterar Diccionario.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9.3. Recorrer Cadenas de Texto" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RPA-Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9.3. Recorrer Cadenas de Texto.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,10 +196,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.9.1. Iterar Elementos (Listas, Tuplas, Conjuntos)" />
-        <item itemvalue="Python.9.2 Iterar Diccionario" />
+        <item itemvalue="Python.9.3. Recorrer Cadenas de Texto" />
+        <item itemvalue="Python.9.2. Iterar Diccionario" />
         <item itemvalue="Python.3.4. Diccionarios Avanzados" />
         <item itemvalue="Python.3.3. Conjuntos Avanzados" />
-        <item itemvalue="Python.8. Desempaquetado" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +228,7 @@
       <workItem from="1728164461638" duration="796000" />
       <workItem from="1728165265004" duration="2884000" />
       <workItem from="1728335490334" duration="2265000" />
-      <workItem from="1728337879628" duration="5650000" />
+      <workItem from="1728337879628" duration="6111000" />
     </task>
     <task id="LOCAL-00001" summary="Actualizacion de Archivos">
       <option name="closed" value="true" />
@@ -312,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728342648277</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Actualizacion de Archivos">
+      <option name="closed" value="true" />
+      <created>1728344647497</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728344647497</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,15 +330,16 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RPA_Python$9__Input.coverage" NAME="9. Input Coverage Results" MODIFIED="1728165374753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RPA_Python$9_3__Recorrer_Cadenas_de_Texto.coverage" NAME="9.3. Recorrer Cadenas de Texto Coverage Results" MODIFIED="1728344316095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RPA_Python$8__Desempaquetado.coverage" NAME="8. Desempaquetado Coverage Results" MODIFIED="1728335886214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RPA_Python$3_4__Diccionarios_Avanzados.coverage" NAME="3.4. Diccionarios Avanzados Coverage Results" MODIFIED="1728339552350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RPA_Python$Metodos.coverage" NAME="6 Metodos de Strings Coverage Results" MODIFIED="1728081489317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RPA_Python$5_2__Ciclo_Bucle.coverage" NAME="9.1. Iterar Elementos (Listas, Tuplas, Conjuntos) Coverage Results" MODIFIED="1728344626419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RPA_Python$8__Metodos_de_Diccionarios.coverage" NAME="8. Metodos de Diccionarios Coverage Results" MODIFIED="1728164798905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RPA_Python$9_2_Iterar_Diccionario.coverage" NAME="9.2 Iterar Diccionario Coverage Results" MODIFIED="1728344002283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RPA_Python$3__Variables.coverage" NAME="3. Variables Coverage Results" MODIFIED="1728166934765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RPA_Python$3_3__Conjuntos_Avanzados.coverage" NAME="3.3. Conjuntos Avanzados Coverage Results" MODIFIED="1728338679514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RPA_Python$6_Metodos_de_Strings.coverage" NAME="6 Metodos de Strings Coverage Results" MODIFIED="1728082232091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/RPA_Python$5_2__Ciclo_Bucle.coverage" NAME="9.1. Iterar Elementos (Listas, Tuplas, Conjuntos) Coverage Results" MODIFIED="1728344221946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RPA_Python$7__Metodos_de_Listas.coverage" NAME="7. Metodos de Listas Coverage Results" MODIFIED="1728086281663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/RPA_Python$8__Metodos_de_Diccionarios.coverage" NAME="8. Metodos de Diccionarios Coverage Results" MODIFIED="1728164798905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/RPA_Python$9_2_Iterar_Diccionario.coverage" NAME="9.2 Iterar Diccionario Coverage Results" MODIFIED="1728344002283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
