@@ -239,7 +239,7 @@
       <workItem from="1728335490334" duration="2265000" />
       <workItem from="1728337879628" duration="6111000" />
       <workItem from="1728420236218" duration="7051000" />
-      <workItem from="1728503779191" duration="4727000" />
+      <workItem from="1728503779191" duration="5112000" />
     </task>
     <task id="LOCAL-00001" summary="Actualizacion de Archivos">
       <option name="closed" value="true" />
@@ -377,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728505445653</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Actualizacion de Archivos">
+      <option name="closed" value="true" />
+      <created>1728509572565</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728509572565</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +405,7 @@
     <SUITE FILE_PATH="coverage/RPA_Python$12__Funciones.coverage" NAME="12. Funciones Coverage Results" MODIFIED="1728426103094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RPA_Python$5_2__Ciclo_Bucle.coverage" NAME="9.1. Iterar Elementos (Listas, Tuplas, Conjuntos) Coverage Results" MODIFIED="1728344626419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RPA_Python$11__Funciones.coverage" NAME="11. Funciones Coverage Results" MODIFIED="1728421785281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/RPA_Python$13__Modulos.coverage" NAME="13. Modulos Coverage Results" MODIFIED="1728507822484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RPA_Python$13__Modulos.coverage" NAME="13. Modulos Coverage Results" MODIFIED="1728509448620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RPA_Python$8__Metodos_de_Diccionarios.coverage" NAME="8. Metodos de Diccionarios Coverage Results" MODIFIED="1728164798905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RPA_Python$9_2_Iterar_Diccionario.coverage" NAME="9.2 Iterar Diccionario Coverage Results" MODIFIED="1728344002283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RPA_Python$12_3__Funciones_Lambda.coverage" NAME="12.3. Funciones Lambda Coverage Results" MODIFIED="1728505420322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
