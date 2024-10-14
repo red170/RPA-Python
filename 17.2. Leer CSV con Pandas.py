@@ -38,3 +38,15 @@ print(c_total)
 #Obetener Data Estadistica de Data Frame
 df_Info = df.describe()
 print(df_Info)
+
+#Acceder a un Elemento espcifico con loc
+especifico_loc = df.loc[2,"edad"]
+print(especifico_loc)
+
+#Acceder a un Elemento espcifico con iloc
+especifico_iloc = df.iloc[2,2]
+print(especifico_iloc)
+
+#Acceder a las Filas de una Columna
+apellidos = df.iloc[:,1]
+print(apellidos)
