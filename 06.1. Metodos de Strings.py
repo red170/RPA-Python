@@ -55,3 +55,7 @@ print(replace)
 split = cadena1.split(' ')
 print(split)
 print(split[1])
+
+#Hacer Slicing con unas Cadena (los datso entre los corchetes son los parametros desde-hasta donde se va sacar esa parte del string)
+cadena = "0123456789"
+print(cadena[2:5])
