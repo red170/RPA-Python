@@ -2,8 +2,8 @@ import re
 
 texto = '''hola hermano, que tal estas weon. 1 fin
 esta es la segunda linea. 223 - solamente por relleno
-y esta es la tercera. 3. - mas relleno aun
-y esta es la tercera. 3. - mas relleno aun'''
+y esta es la tercera. 3. - mas relleno abababa aun
+y esta es la tercera. 3. - mas relleno abababab un'''
 
 #Busqueda Simple de String y devuleve la cantidad de Coincidencias
 resultado = re.search('hola',texto)
@@ -55,6 +55,12 @@ resultado13 = re.findall(r'\d{3}',texto)
 #{n, m} > Buscar un valor que cumpla con un rango de repeticiones
 resultado14 = re.findall(r'\d{1,3}',texto)
 
+#Buscando Conjuntos de caracteres con un rango especifico
+resultado15 = re.findall(r'(ab){2,4}',texto)
+
+#| > Buscar una cosa o la otra (Propiedad OR)
+resultado16 = re.findall(r'\d{3}|hola',texto)
+
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -70,4 +76,6 @@ result3 = re.findall(f'^esta',texto,flags=re.M)
 #Busqueda en especifico al final de la linea (Toma en cuenta todas las lineas de la cadena)
 result5 = re.findall(f'aun$',texto,flags=re.M)
 
-print(resultado14)
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+print(resultado16)
