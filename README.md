@@ -12,5 +12,13 @@ Este repositorio está licenciado bajo la Licencia Creative Commons Attribution 
 
 
 ## Contenidos
+1. Variables
+2. Arreglos de Datos
+3. Ciclos Basicos de Programacion
+4. Metodos
+5. Funciones
+6. Manipulacion de TXT/CSV
+7. Excepciones
+8. Expresiones Regulares
 
 
