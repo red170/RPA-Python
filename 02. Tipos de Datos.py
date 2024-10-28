@@ -30,7 +30,7 @@ lista = ['oscar', 27, True, ]
 print(lista)
 print(lista[1]) #Si deseamos referirnos a un dato especifico de la lista/array colocamos entre corchetes el indice despues del nombre del arreglo
 
-# Modificacion de un Elemento
+# Modificacion de un Elemento (Se hace uso del Index para escificar que elemento de la Lista se va Modificar)
 lista[0] = 'Ernesto'
 print(lista)
 
@@ -51,11 +51,11 @@ diccionario = {
 }
 print(diccionario)
 
-# Modificacion de un Elemento
+# Modificacion de un Elemento (Para hacer la Modificacion se debe usar La clave para modificar el valor de dicho elemento)
 diccionario['nombre'] = 'Oscar'
 print(diccionario)
 
-# VERIFICAR TIPO DE DATOS
+# VERIFICAR TIPO DE DATOS (Devuelve el Tipo de Dato)
 print(type(1))
 print(type('Ernesto'))
 print(type(False))
