@@ -13,10 +13,10 @@ Este repositorio está licenciado bajo la Licencia Creative Commons Attribution 
 
 ## Contenidos
 
-1. Hello World
-2. Tipos y Manejo de Datos
-    2.1. Simples
-    2.2. Compuestos
+*1. Hello World
+*2. Tipos y Manejo de Datos
+    *2.1. Simples
+    *2.2. Compuestos
 3. Variables
 4. Operadores
     4.1. Aritmeticos
