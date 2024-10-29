@@ -1,3 +1,5 @@
+# --- USO DE EXCEPCIONES -------------------------------------------------------------------------------------------------------
+
 #Creando un Funcion que sume 2 numeros
 def suma():
     #Iniciar el Bucle
@@ -21,3 +23,16 @@ def suma():
     return resultado
 
 print(suma())
+
+# --- CREACION DE EXCEPCIONES PERSONALES -------------------------------------------------------------------------------------------------------
+
+#Creando una Excepcion Perzonalizada
+class MiExcepcion(Exception):
+    def __init__(self,err):
+        print(f'Impresionante, Cometiste el siguiente error: {err}')
+
+#Lazando mi Primera Excepcion        
+try: 
+    raise MiExcepcion('eroooooooooororororororo')
+except:
+    print('como vas a cometer ese error')
