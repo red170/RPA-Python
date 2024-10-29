@@ -1,3 +1,5 @@
+# --- MODULOS -------------------------------------------------------------------------------------------------------
+
 """
 Modulos Nativos
 Modulos Third Party
@@ -35,3 +37,10 @@ print(saludo)
 #Importar Variable que esta dentro de una Carpeta
 from Modulos.zmodulo import salu2
 print(salu2)
+
+# --- PAQUETES -------------------------------------------------------------------------------------------------------
+
+#Los Paquqtes son un cojunto de Modulos los cuales sirven para almacenar todos los modulos en una carpeta y cargarlos todos de una vez
+import Modulos.zmodulo
+
+print(Modulos.zmodulo.salu2)

@@ -2,7 +2,8 @@
 
 # Elementos sobre los que se pueden iterar: Listas, Tuplas, Diccionario, Cadenas de Texto
 
-# --- Bucle FOR
+# --- BUCLE FOR -------------------------------------------------------------------------------------------------------
+
 # /// Listas, Tuplas y Conjuntos
 
 animales = ['perro','gato','tortuga','cocodrilo']
@@ -54,3 +55,45 @@ for animal in animales:
 #Aplicar For para operar una lista de numeros en una sola linea de codigo
 numeros_duplicados = [x*2 for x in numeros]
 print(numeros_duplicados)
+
+# /// Diccionarios
+
+diccionario = {
+    'nombre': 'Ernesto',
+    'apellido': 'Portillo',
+    'edad': 27
+}
+
+#Obtener las claves de de un Diccionario
+for key in diccionario:
+    print(key)
+
+#Obetner las claves y valores de un Diccionario en Formato Tupla
+for value in diccionario.items():
+    print(value)
+
+#Obtener las claves/valores dentro de variables para manejarlas
+for datos in diccionario.items():
+    clave = datos[0]
+    valor = datos[1]
+    print(f'{clave}: {valor}')
+    
+# /// Cadenas de Texto
+
+cadena_de_texto = 'que ondas ernesto'
+
+#Recorrer letra por letra
+for letra in cadena_de_texto:
+    print(letra)
+    
+    
+# --- BUCLE WHILE -------------------------------------------------------------------------------------------------------
+
+contador = 0
+while contador < 10:
+    contador += 1
+    print(contador)
+
+print("Acabou")
+
+

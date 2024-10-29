@@ -1,6 +1,6 @@
 # --- TUPLAS -------------------------------------------------------------------------------------------------------
 
-#CreaciON De Tuplas
+#Creacion De Tuplas
 tupla = ('elemento1', 'elemento2')
 
 #Creacion con 'Tuple'
@@ -44,11 +44,11 @@ print(res5)
 
 # --- DICCIONARIOS  -------------------------------------------------------------------------------------------------------
 
-#Creacion de Dirccionarios con Dict
+#Creacion de Diccionarios con Dict
 dic = dict(nombre='ernesto', apellido='portillo')
 print(dic)
 
-#Las Tuplas pueden actuart como Clave de un diccionario (las listas no)
+#Las Tuplas pueden actuar como Clave de un diccionario (las listas no)
 dic2 = {frozenset(['ernesto','portillo']):'lol'}
 print(dic2)
 
