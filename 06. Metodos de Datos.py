@@ -10,11 +10,11 @@ print(upper)
 lower = cadena1.lower()
 print(lower)
 
-#Convertir la primera letra a Mayusculas
+#Convertir la primera letra a Mayusculas de una Cadena
 capitalize = cadena1.capitalize()
 print(capitalize)
 
-#Buscar una Cadena dentro de otra y devuelve el index de donde empieza el trozo de cadena buscado (al exixtir un error devuelve -1)
+#Busca una Cadena dentro de otra y devuelve el index de donde empieza el trozo de cadena buscado (al exixtir un error devuelve -1)
 find = cadena1.find('a')
 print(find)
 
@@ -55,7 +55,7 @@ split = cadena1.split(' ')
 print(split)
 print(split[1])
 
-#Hacer Slicing con unas Cadena (los datso entre los corchetes son los parametros desde-hasta donde se va sacar esa parte del string)
+#Hacer Slicing (Sacar una parte de un elemento aun mayor) con una Cadena (los datso entre los corchetes son los parametros desde-hasta donde se va sacar esa parte del string)
 cadena = "0123456789"
 print(cadena[2:5])
 
@@ -80,11 +80,11 @@ print(lista)
 lista.insert(2,'Nuevo Elemento Insert')
 print(lista)
 
-# Agregar varios elementos a una lista
+# Agregar varios elementos a una lista, se agregaran al final
 lista.extend(['Nuevo Elemento Extend 1','Nuevo Elemento Extend 2'])
 print(lista)
 
-# Eliminar un elemento especificando el index si se usan numero snegativos empieza a contar el index desde el final
+# Eliminar un elemento especificando el index si se usan numeros negativos empieza a contar el index desde el final
 lista.pop(2)
 print(lista)
 
@@ -92,14 +92,15 @@ print(lista)
 lista.remove('Nuevo Elemento Extend 1')
 print(lista)
 
-# Ordenar Elementos de Una Lista
+# Ordenar Elementos de Una Lista de Menor a Mayor
 lista2.sort()
 print(lista2)
 
+# Ordenar Elementos de Una Lista de Mayor a Menor 
 lista2.sort(reverse=True)
 print(lista2)
 
-# Invierte los elementos de una Lista
+# Invierte el orden de los elementos de una Lista
 lista.reverse()
 print(lista)
 
@@ -111,9 +112,10 @@ print(list)
 # --- METODOS DE TUPLAS -------------------------------------------------------------------------------------------------------
 
 tupla1 = (1,2,4,5,6,7,8,9,10)
+tupla2 = ('oscar','ernesto','portillo')
 
-#Busca un elemento dentro de la Tupla y devuelve el index
-index = tupla1.index(10)
+#Busca un elemento dentro de la Tupla y devuelve el index, entre parentesis se coloca el elemento a buscar
+index = tupla2.index('portillo')
 print(index)
 
 #Contar el numero de veces que aparece un dato especifico dentro de la Tupla
@@ -129,11 +131,11 @@ diccionario = {
 }
 
 
-# Devuelve el Objeto Dict_Item (el cual no sirve para iterar)
+# Devuelve el Objeto Dict_Item que contiene todas las claves de un Diccionario (el cual nos sirve para iterar)
 claves = diccionario.keys()
 print(claves)
 
-# Obetener un Valro del Objeto al especificarle su clave correspondiente
+# Obtener un Valor del Objeto al especificarle su clave correspondiente
 get = diccionario.get('nombre')
 print(get)
 
@@ -141,7 +143,7 @@ print(get)
 diccionario.pop('nombre')
 print(diccionario)
 
-# Obtener un Elemento dict_item iterable
+# Obtener un Elemento dict_item iterable cada pareja Clave-Valor funcionara como un elemento dentro de una lista
 iterable = diccionario.items()
 print(iterable)
 

@@ -44,7 +44,7 @@ print(res5)
 
 # --- DICCIONARIOS  -------------------------------------------------------------------------------------------------------
 
-#Creacion de Diccionarios con Dict
+#Creacion de Diccionarios con Dict, Para crear un Diccionario en una sola Linea
 dic = dict(nombre='ernesto', apellido='portillo')
 print(dic)
 

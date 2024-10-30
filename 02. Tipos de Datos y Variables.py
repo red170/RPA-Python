@@ -22,45 +22,7 @@
 True
 False
 
-
-# --- DATOS COMPUESTOS -------------------------------------------------------------------------------------------------------
-
-#1. Listas (Array) 
-lista = ['oscar', 27, True, ]
-print(lista)
-print(lista[1]) #Si deseamos referirnos a un dato especifico de la lista/array colocamos entre corchetes el indice despues del nombre del arreglo
-
-# Modificacion de un Elemento (Se hace uso del Index para escificar que elemento de la Lista se va Modificar)
-lista[0] = 'Ernesto'
-print(lista)
-
-#2.  Tuplas (A diferencia de las Listas estas no se puede modificar el contenido posteriormente a la declaracion y asigancion)
-tupla = ('oscar', 27, False)
-print(tupla)
-print(tupla[1]) #Si deseamos referirnos a un dato especifico de la lista/array colocamos entre corchetes el indice despues del nombre del arreglo
-
-#3.  Conjunto (Listas pero sin orden definido no permite buscar elementos por el indice y tampoco acepta datos duplicados)
-conjunto = {'ernesto', 27, False}
-print(conjunto)
-
-#4.  Diccionario (Objeto en JS)
-diccionario = {
-    'nombre' : 'Ernesto',
-    'edad' : 27,
-    'casado' : False
-}
-print(diccionario)
-
-# Modificacion de un Elemento (Para hacer la Modificacion se debe usar La clave para modificar el valor de dicho elemento)
-diccionario['nombre'] = 'Oscar'
-print(diccionario)
-
-# VERIFICAR TIPO DE DATOS (Devuelve el Tipo de Dato)
-print(type(1))
-print(type('Ernesto'))
-print(type(False))
-
-# --- VARIABLES:
+# --- VARIABLES -------------------------------------------------------------------------------------------------------
 # Sirven para almacenar Informacion
 
 # Declaracion y Definicion
@@ -87,3 +49,51 @@ print(nombre)
 print(numero)
 print(nombreCompleto)
 print(saludo)
+
+
+
+# --- DATOS COMPUESTOS -------------------------------------------------------------------------------------------------------
+
+#1. ----- Listas (Array) 
+#Las Listas van con Corchetes
+lista = ['oscar', 27, True, ] 
+print(lista)
+
+#Si deseamos referirnos a un dato especifico de la lista/array colocamos entre corchetes el indice despues del nombre del arreglo
+print(lista[1]) 
+
+# Modificacion de un Elemento (Se hace uso del Index para escificar que elemento de la Lista se va Modificar)
+lista[0] = 'Ernesto'
+print(lista)
+
+#2. ----- Tuplas 
+# A diferencia de las Listas estas no se puede modificar el contenido posteriormente a la declaracion y asigancion, Las Tuplas van entre Parentesis
+tupla = ('oscar', 27, False)
+print(tupla)
+
+#Si deseamos referirnos a un dato especifico de la lista/array colocamos entre corchetes el indice despues del nombre del arreglo
+print(tupla[1])
+
+#3. ----- Conjunto 
+# Listas pero sin orden definido no permite buscar elementos por el indice y tampoco acepta datos duplicados, Los conjuntos van entre Llaves
+conjunto = {'ernesto', 27, False} 
+print(conjunto)
+
+#4. ----- Diccionario 
+# Conocido como Objeto en JS, se encierran entre llaves con el detalle que aca se especifacn los valores en parejas de Clave-Valor
+diccionario = {
+    'nombre' : 'Ernesto',
+    'edad' : 27,
+    'casado' : False
+}
+print(diccionario)
+
+# Modificacion de un Elemento de un Objeto (Para hacer la Modificacion se debe usar La clave para modificar el valor de dicho elemento)
+diccionario['nombre'] = 'Oscar'
+print(diccionario)
+
+#*** VERIFICAR TIPO DE DATOS (Devuelve el Tipo de Dato)
+print(type(1))
+print(type('Ernesto'))
+print(type(False))
+
